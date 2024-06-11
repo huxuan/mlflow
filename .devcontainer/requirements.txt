@@ -9,7 +9,7 @@ absl-py==2.0.0
     # via rouge-score
 aiofiles==23.2.1
     # via mlserver
-aiohttp==3.8.6
+aiohttp==3.9.4
     # via
     #   datasets
     #   fsspec
@@ -41,7 +41,7 @@ azure-core==1.29.5
     #   azure-identity
     #   azure-storage-blob
     #   azure-storage-file-datalake
-azure-identity==1.14.1
+azure-identity==1.16.1
     # via -r test-requirements.txt
 azure-storage-blob==12.18.3
     # via
@@ -115,7 +115,7 @@ coverage[toml]==7.3.2
     # via
     #   coverage
     #   pytest-cov
-cryptography==41.0.4
+cryptography==42.0.4
     # via
     #   azure-identity
     #   azure-storage-blob
@@ -168,7 +168,7 @@ exceptiongroup==1.1.3
     #   pytest
 executing==2.0.0
     # via stack-data
-fastapi==0.89.1
+fastapi==0.109.1
     # via mlserver
 filelock==3.12.4
     # via
@@ -212,7 +212,7 @@ grpcio==1.59.0
     # via
     #   mlserver
     #   py-grpc-prometheus
-gunicorn==21.2.0 ; platform_system != "Windows"
+gunicorn==22.0.0 ; platform_system != "Windows"
     # via
     #   -r core-requirements.txt
     #   mlflow
@@ -227,7 +227,7 @@ hyperopt==0.2.7
     # via -r test-requirements.txt
 identify==2.5.30
     # via pre-commit
-idna==3.4
+idna==3.7
     # via
     #   anyio
     #   requests
@@ -270,7 +270,7 @@ itsdangerous==2.1.2
     # via flask
 jedi==0.19.1
     # via ipython
-jinja2==3.0.3 ; platform_system != "Windows"
+jinja2==3.1.4 ; platform_system != "Windows"
     # via
     #   -r core-requirements.txt
     #   -r doc-min-requirements.txt
@@ -329,7 +329,7 @@ matplotlib-inline==0.1.6
     #   ipython
 mccabe==0.7.0
     # via pylint
-mlflow==2.7.1
+mlflow==2.13.2
     # via mlserver-mlflow
 mlserver==1.3.5
     # via
@@ -390,7 +390,7 @@ numpy==1.24.4
     #   xgboost
 oauthlib==3.2.2
     # via databricks-cli
-orjson==3.9.9
+orjson==3.9.15
     # via mlserver
 packaging==23.2
     # via
@@ -426,7 +426,7 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
-pillow==10.1.0
+pillow==10.3.0
     # via
     #   -r test-requirements.txt
     #   matplotlib
@@ -540,7 +540,7 @@ regex==2023.10.3
     # via
     #   nltk
     #   tiktoken
-requests==2.31.0
+requests==2.32.2
     # via
     #   -r skinny-requirements.txt
     #   azure-core
@@ -573,7 +573,7 @@ ruff==0.0.292
     # via -r lint-requirements.txt
 s3transfer==0.7.0
     # via boto3
-scikit-learn==1.3.2
+scikit-learn==1.5.0
     # via
     #   -r core-requirements.txt
     #   flaml
@@ -639,13 +639,13 @@ sqlalchemy==2.0.22
     #   -r core-requirements.txt
     #   alembic
     #   mlflow
-sqlparse==0.4.4
+sqlparse==0.5.0
     # via
     #   -r skinny-requirements.txt
     #   mlflow
 stack-data==0.6.3
     # via ipython
-starlette==0.22.0
+starlette==0.36.2
     # via
     #   fastapi
     #   starlette-exporter
@@ -673,12 +673,12 @@ tomli==2.0.1
     #   pytest
 tomlkit==0.12.1
     # via pylint
-tornado==6.3.3
+tornado==6.4.1
     # via
     #   ipykernel
     #   jupyter-client
     #   livereload
-tqdm==4.66.1
+tqdm==4.66.3
     # via
     #   -r test-requirements.txt
     #   datasets
